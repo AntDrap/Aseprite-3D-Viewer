@@ -275,8 +275,6 @@ function execute(path)
         return
     end
 
-    dlg1:close()
-
     sprite = Sprite(dlg1.data.X, dlg1.data.Y)
     xOffset = sprite.width / 2
     yOffset = sprite.height / 2
